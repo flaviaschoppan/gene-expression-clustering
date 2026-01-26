@@ -6,7 +6,7 @@ sns.set_theme(style="whitegrid", context="talk")
 
 def plot_clusters(coords_df: pd.DataFrame, labels: pd.Series, outpath: str):
     """
-    Plot samples in2D space colored by cluster assignment.
+    Plot samples in 2D space colored by cluster assignment.
 
     Parameters
     ----------
